@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/model_toolbar" />
+
+    <com.lcp.mvpdemo.widget.ARecycleView
+        android:id="@+id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:ClipToPadding="true"
+        app:EmptyView="@layout/empty_view"
+        app:Scrollbars="vertical"
+        app:layout_moreProgress="@layout/view_more_progress" />
+
+</android.support.design.widget.CoordinatorLayout>

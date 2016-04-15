@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVPDemo</string>
+    <string name="no_result">未查询到该IP信息</string>
+    <string name="change_addr">换个地址试试吧</string>
+    <string name="addr">地区：</string>
+    <string name="net">网络类型：</string>
+</resources>

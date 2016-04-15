@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+
+    <declare-styleable name="AislliRecyclerview">
+        <attr name="ClipToPadding" format="boolean" />
+        <attr name="Padding" format="dimension" />
+        <attr name="PaddingTop" format="dimension" />
+        <attr name="PaddingBottom" format="dimension" />
+        <attr name="PaddingLeft" format="dimension" />
+        <attr name="PaddingRight" format="dimension" />
+        <attr name="EmptyView" format="reference" />
+        <attr name="layout_moreProgress" format="reference"/>
+        <attr name="Scrollbars" format="enum">
+            <enum name="none" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="horizontal" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
